@@ -1,0 +1,49 @@
+Import or export text (.txt or .csv) files
+Excel for Office 365 Excel 2019 Excel 2016 Excel 2013 Excel 2010 Excel 2007
+There are two ways to import data from a text file with Excel: you can open it in Excel, or you can import it as an external data range. To export data from Excel to a text file, use the Save As command and change the file type from the drop-down menu.
+
+There are two commonly used text file formats:
+
+Delimited text files (.txt), in which the TAB character (ASCII character code 009) typically separates each field of text.
+
+Comma separated values text files (.csv), in which the comma character (,) typically separates each field of text.
+
+You can change the separator character that is used in both delimited and .csv text files. This may be necessary to make sure that the import or export operation works the way that you want it to.
+
+Note: You can import or export up to 1,048,576 rows and 16,384 columns.
+
+Import a text file by opening it in Excel
+You can open a text file that you created in another program as an Excel workbook by using the Open command. Opening a text file in Excel does not change the format of the file — you can see this in the Excel title bar, where the name of the file retains the text file name extension (for example, .txt or .csv).
+
+Go to File > Open and browse to the location that contains the text file.
+
+Select Text Files in the file type dropdown list in the Open dialog box.
+
+Locate and double-click the text file that you want to open.
+
+If the file is a text file (.txt), Excel starts the Import Text Wizard. When you are done with the steps, click Finish to complete the import operation. See Text Import Wizard for more information about delimiters and advanced options.
+
+If the file is a .csv file, Excel automatically opens the text file and displays the data in a new workbook.
+
+Note: When Excel opens a .csv file, it uses the current default data format settings to interpret how to import each column of data. If you want more flexibility in converting columns to different data formats, you can use the Import Text Wizard. For example, the format of a data column in the .csv file may be MDY, but Excel's default data format is YMD, or you want to convert a column of numbers that contains leading zeros to text so you can preserve the leading zeros. To force Excel to run the Import Text Wizard, you can change the file name extension from .csv to .txt before you open it, or you can import a text file by connecting to it (for more information, see the following section).
+
+Newer versionsOffice 2016-2010
+Import a text file by connecting to it (Power Query)
+You can import data from a text file into an existing worksheet.
+
+On the Data tab, in the Get & Transform Data group, click From Text/CSV.
+
+In the Import Data dialog box, locate and double-click the text file that you want to import, and click Import.
+
+In the preview dialog box, you have several options:
+
+Select Load if you want to load the data directly to a new worksheet.
+
+Alternatively, select Load to if you want to load the data to a table, PivotTable/PivotChart, an existing/new Excel worksheet, or simply create a connection. You also have the choice of adding your data to the Data Model.
+
+Select Transform Data if you want to load the data to Power Query, and edit it before bringing it to Excel.
+
+If Excel doesn't convert a particular column of data to the format that you want, then you can convert the data after you import it. For more information, see Convert numbers stored as text to numbers and Convert dates stored as text to dates.
+
+Export data to a text file by saving it
+You can convert an Excel worksheet to a text file by using the Save As command.
